@@ -1,0 +1,29 @@
+logs/*
+!.gitkeep
+npm-debug.log
+tmp
+.idea
+*.swp
+*.sublime-*
+*.code-workspace
+.vscode
+
+# cache directories
+Thumbs.db
+*.DS_Store
+*.empty
+
+# Python
+*.pyc
+.coverage
+*,cover
+
+# Non committable files
+*.env
+*.zip
+venv
+private
+development_data.json
+.generated
+**/fixtures/**
+
