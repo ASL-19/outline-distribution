@@ -23,7 +23,7 @@ from outline_api import (
     get_key_datatransfer)
 
 from distribution.models import Vpnuser, OutlineUser, USER_CHANNEL_CHOICES, Issue
-from lp_server.reputation import ReputationSystem
+from distribution.reputation import ReputationSystem
 from server.models import OutlineServer
 
 logger = logging.getLogger(__name__)
