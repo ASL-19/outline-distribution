@@ -1,13 +1,23 @@
-# Outline Distribution
+In order to run a scalable Outline server distribution, you will need the following deoployments:
+
+- [ ] :aerial_tramway: **Outline Distribution system [current repository]:** The repository provides a full Django implementation to run a simple [Outline VPN](https://getoutline.org/) distribution system. The provided server code gives you what you need to handle Outline server inventory, and API system required for running Telegram Bot, Email Bot and other interfaces.
+
+- [ ] :policewoman: **Outline reputation Module [[link](https://github.com/ASL-19/outline-reputation)]:** If you need to protect your Outline server distribtion system from bad actors, this repository provides a base model class to implement reputation. 
+
+- [ ] :love_letter: **Outline Bot interfaces [[link](https://github.com/ASL-19/outline-bots)]:** Once you created the Outline distribution system, you will need to run a distribution interface. We've prepared a code base where you can create and deploy a Telegram and Email bot on Amazon AWS. 
+
+## Outline Distribution
 The repository provides a full Django implementation to run a simple [Outline VPN](https://getoutline.org/) distribution system. The provided server code gives you what you need to handle Outline server inventory, and API system required for running Telegram Bot, Email Bot and other interfaces.
 
-## Installation
+Please note this repository does not include the code base for running Telegram Bot, Email bot or other interfaces. If you like to access the code base for running these bots please visit https://github.com/ASL-19/outline-bots
+
+### Installation
 You will need a Django server in order to use this repository. Run the following instructions to get your system up and running. The instruction is based on Python 3.8. You have to make required changes if you are using a different version of the python.
 
-### Project directory
+#### Project directory
 Create a directory to hold your project files, and change into that directory.
 
-### Virtualenv
+#### Virtualenv
 Install [virtualenv](https://virtualenv.pypa.io/en/stable/) on your system. Once installed create a virtualenv directory to isolate your packages.
 
 Now run:
