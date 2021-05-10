@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/15640491/117671378-a53c2c80-b1a0-11eb-89e2-5c5411f27013.gif" width="400" height="400">
+
 # Outline Distribution
 The repository provides a full Django implementation to run a simple [Outline VPN](https://getoutline.org/) distribution system. The provided server code gives you what you need to handle Outline server inventory, and API system required for running Telegram Bot, Email Bot and other interfaces.
 
