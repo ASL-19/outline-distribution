@@ -6,7 +6,9 @@ In order to run a scalable Outline server distribution, you will need the follow
 
 - [ ] :love_letter: **Outline Bot interfaces [[link](https://github.com/ASL-19/outline-bots)]:** Once you created the Outline distribution system, you will need to run a distribution interface. We've prepared a code base where you can create and deploy a Telegram and Email bot on Amazon AWS. 
 
-## Outline Distribution
+<img src="https://user-images.githubusercontent.com/15640491/117671378-a53c2c80-b1a0-11eb-89e2-5c5411f27013.gif" width="400" height="400">
+
+# Outline Distribution
 The repository provides a full Django implementation to run a simple [Outline VPN](https://getoutline.org/) distribution system. The provided server code gives you what you need to handle Outline server inventory, and API system required for running Telegram Bot, Email Bot and other interfaces.
 
 Please note this repository does not include the code base for running Telegram Bot, Email bot or other interfaces. If you like to access the code base for running these bots please visit https://github.com/ASL-19/outline-bots
